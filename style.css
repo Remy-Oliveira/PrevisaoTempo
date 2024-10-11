@@ -17,11 +17,11 @@ body {
 }
 
 .hide {
-    display: none;
+    filter: blur(50px);
 }
 
 .container {
-    max-width: 450px;
+    height: 450px;
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.664) 0px 3px 8px;
     padding: 20px 10px;
@@ -29,11 +29,11 @@ body {
     border-radius: 1rem;
     backdrop-filter: blur(50px);
     border: 1px solid rgba(255, 255, 255, 0.366);
+    overflow: hidden;
 }
 
 .form h3 {
     margin-bottom: 1rem;
-
 }
 
 .form-input-container {
